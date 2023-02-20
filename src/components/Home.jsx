@@ -17,7 +17,7 @@ const [data,setdata]=useState('')
     <div className="container">
        
       <div style={{width:'250px'}} className=" mt-3 row float-end">
-         <input type="search"  placeholder='search ... ex:IPhone 9' width='200px' onChange={(e)=>{setdata(e.target.value)}} />
+         <input type="search"  placeholder='search ... only small-letters' width='200px' onChange={(e)=>{setdata(e.target.value)}} />
       </div>
 
         <div className="row">
